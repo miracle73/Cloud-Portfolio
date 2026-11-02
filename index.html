@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nwadiaro Miracle Chukwuma | Cloud and Platform Engineer</title>
+<meta name="description" content="I design and run cloud infrastructure on AWS as code: containers, databases, queues and delivery pipelines that stay cheap when idle and reliable under load.">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://miracle73.github.io/Cloud-Portfolio/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://miracle73.github.io/Cloud-Portfolio/">
+<meta property="og:title" content="Nwadiaro Miracle Chukwuma | Cloud and Platform Engineer">
+<meta property="og:description" content="I design and run cloud infrastructure on AWS as code: containers, databases, queues and delivery pipelines that stay cheap when idle and reliable under load.">
+<meta property="og:image" content="https://miracle73.github.io/Cloud-Portfolio/me.jpg">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="400">
+<meta property="og:image:alt" content="Portrait of Nwadiaro Miracle Chukwuma">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#000;--panel:#0c0c0c;--line:#262626;--mute:#a3a3a3;--accent:#ff7a1a;--accent2:#ffa060;--fg:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 ui-sans-serif,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
+.wrap{max-width:1024px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:10;background:rgba(0,0,0,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+nav .logo{color:var(--accent);font-weight:600;font-size:14px}
+nav ul{display:flex;gap:24px;list-style:none;font-size:14px;color:var(--mute)}
+nav ul a:hover{color:var(--fg)}
+section{padding:72px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+.label{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:clamp(30px,6vw,48px);line-height:1.15;letter-spacing:-.02em;margin-top:16px}
+h2{font-size:clamp(26px,4vw,32px);margin-top:12px;line-height:1.2}
+.hero{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center}
+.role{color:var(--accent2);font-size:20px;margin-top:6px}
+.lead{color:var(--mute);font-size:18px;max-width:580px;margin-top:22px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{border:1px solid var(--line);border-radius:8px;padding:9px 16px;font-size:14px;transition:.2s}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#000;font-weight:600}
+.btn.primary:hover{filter:brightness(1.1);color:#000}
+.hero img{width:260px;height:260px;object-fit:cover;border-radius:18px;border:1px solid var(--line)}
+.projects{list-style:none;margin-top:40px;display:grid;gap:22px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:28px;transition:border-color .2s,transform .2s}
+.card:hover{border-color:rgba(255,122,26,.5);transform:translateY(-2px)}
+.card-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px}
+.card h3{font-size:24px}
+.card h3 span{color:var(--mute);font-size:15px;margin-right:12px;font-weight:400}
+.links{display:flex;flex-wrap:wrap;gap:16px}.card .live{color:var(--accent2);font-size:14px}
+.card .live:hover{text-decoration:underline}
+.card .what{font-size:18px;margin-top:12px}
+.card .key{border-left:2px solid var(--accent);padding-left:16px;margin-top:16px;color:var(--accent)}
+.card .detail{color:var(--mute);margin-top:14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin-top:22px}
+.tags li{border:1px solid var(--line);border-radius:6px;padding:2px 8px;font-size:12px;color:var(--mute)}
+.principles{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px}.principles li{border:1px solid var(--line);border-radius:14px;padding:22px;font-size:18px;transition:.2s}.principles li:hover{border-color:var(--accent)}@media (max-width:760px){.principles{grid-template-columns:1fr}}
+.groups{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:32px}
+.group{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px}
+.group h3{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin-top:16px}
+.chip{font:inherit;font-size:14px;cursor:pointer;background:#000;color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:6px 13px;transition:.2s}
+.chip:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px);box-shadow:0 0 18px rgba(255,122,26,.35)}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#000}
+.mail{display:inline-block;margin-top:24px;font-size:20px;color:var(--accent);word-break:break-all}
+.mail:hover{text-decoration:underline}
+footer{border-top:1px solid var(--line);padding:32px 0;text-align:center;color:var(--mute);font-size:14px}
+@media (max-width:900px){.principles{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:32px}.principles li{border:1px solid var(--line);border-radius:14px;padding:22px;font-size:18px;transition:.2s}.principles li:hover{border-color:var(--accent)}@media (max-width:760px){.principles{grid-template-columns:1fr}}
+.groups{grid-template-columns:1fr}}
+@media (max-width:760px){.hero{grid-template-columns:1fr}.hero img{width:200px;height:200px;order:-1}nav ul{display:none}.card{padding:20px}section{padding:56px 0}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main">
+  <a href="#top" class="logo mono">Nwadiaro Miracle</a>
+  <ul><li><a href="#work">Work</a></li><li><a href="#principles">How I work</a></li><li><a href="#stack">Stack</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav></div></header>
+
+<main id="top">
+<section><div class="wrap hero">
+  <div>
+    <p class="label mono">Uyo, Nigeria · 5 years</p>
+    <h1>Nwadiaro Miracle Chukwuma</h1>
+    <p class="role">Cloud and Platform Engineer</p>
+    <p class="lead">I design and run cloud infrastructure on AWS as code: containers, databases, queues and delivery pipelines that stay cheap when idle and reliable under load.</p>
+    <div class="btns">
+      <a class="btn primary" href="#work">See my work</a>
+      <a class="btn" href="https://github.com/miracle73" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="btn" href="mailto:nwadiaromiraclechukwuma@gmail.com">Email</a>
+    </div>
+  </div>
+  <img src="me.jpg" alt="Portrait of Nwadiaro Miracle Chukwuma" width="400" height="400" fetchpriority="high">
+</div></section>
+
+<section id="work" aria-labelledby="work-title"><div class="wrap">
+  <p class="label mono">Selected work</p>
+  <h2 id="work-title">Infrastructure I built and run</h2>
+  <ol class="projects">
+    <li><article class="card">
+      <div class="card-top"><h3><span class="mono">01</span>Owuwe infrastructure</h3><div class="links"><a class="live" href="https://owuwe.com/" target="_blank" rel="noopener noreferrer">Live ↗</a></div></div>
+      <p class="what">The AWS infrastructure for a multi tenant commerce operations platform, defined entirely as code.</p>
+      <p class="key">Idle infrastructure should cost almost nothing, so the dev stack has no NAT gateway, no load balancer and an API that starts at zero tasks.</p>
+      <p class="detail">AWS CDK in TypeScript builds a VPC across two availability zones, Postgres 16 on RDS in an isolated subnet with credentials in Secrets Manager, an ARM64 Fargate API pulled from ECR with scan on push, an S3 gateway endpoint so storage traffic stays private, and four SQS queues with dead letter queues for assignment timeouts, escalations, webhook intake and notifications. A monthly budget and daily cost anomaly detection alert on spend.</p>
+      <ul class="tags mono"><li>AWS CDK</li><li>ECS Fargate</li><li>RDS Postgres</li><li>SQS</li><li>Secrets Manager</li><li>ECR</li><li>S3</li></ul>
+    </article></li>
+    <li><article class="card">
+      <div class="card-top"><h3><span class="mono">02</span>Primlook</h3><div class="links"><a class="live" href="https://www.primlook.com/" target="_blank" rel="noopener noreferrer">Live ↗</a></div></div>
+      <p class="what">The backend platform behind a booking and payments product I built and ran end to end alone.</p>
+      <p class="key">Provider webhooks, not synchronous responses, are the source of truth for settlement.</p>
+      <p class="detail">Payments are confirmed by webhooks with idempotency keys, and a reconciliation job keeps payments and bookings in agreement. Email and WhatsApp notifications run through a rate limited queue with backoff, retries and a dead letter queue so weekend booking spikes do not overwhelm sending.</p>
+      <ul class="tags mono"><li>Webhooks</li><li>Idempotency</li><li>Job queues</li><li>Dead letter queues</li><li>Node.js</li></ul>
+    </article></li>
+    <li><article class="card">
+      <div class="card-top"><h3><span class="mono">03</span>Boost Staff</h3><div class="links"><a class="live" href="https://booststaff.io/" target="_blank" rel="noopener noreferrer">Live ↗</a></div></div>
+      <p class="what">Cloud and platform engineering for an on demand hospitality staffing platform, where I currently work.</p>
+      <p class="key">One platform serves a worker mobile app, an ops admin portal and a marketing site.</p>
+      <p class="detail">I work on the infrastructure, delivery pipelines and deployments that the mobile app on Google Play and the App Store, the admin portal and the landing site run on.</p>
+      <ul class="tags mono"><li>AWS</li><li>Docker</li><li>CI/CD</li><li>React Native backend</li></ul>
+    </article></li>
+    <li><article class="card">
+      <div class="card-top"><h3><span class="mono">04</span>Portfolio delivery pipeline</h3><div class="links"><a class="live" href="https://miracle73.github.io/AI-Portfolio/" target="_blank" rel="noopener noreferrer">Live ↗</a><a class="live" href="https://github.com/miracle73/AI-Portfolio" target="_blank" rel="noopener noreferrer">Repo ↗</a></div></div>
+      <p class="what">A GitHub Actions pipeline that builds a Next.js site as static files and deploys it to GitHub Pages on every push.</p>
+      <p class="key">No servers to run: the build is a static export, and deploys use short lived OIDC tokens instead of stored secrets.</p>
+      <p class="detail">The workflow installs from the lockfile, builds with the right base path, uploads the output as a Pages artifact and deploys it, with concurrency control so an older run never overwrites a newer one.</p>
+      <ul class="tags mono"><li>GitHub Actions</li><li>OIDC</li><li>Next.js static export</li><li>GitHub Pages</li></ul>
+    </article></li>
+  </ol>
+</div></section>
+
+<section id="principles" aria-labelledby="pr-title"><div class="wrap">
+  <p class="label mono">How I work</p>
+  <h2 id="pr-title">Positions I hold</h2>
+  <ul class="principles">
+    <li>Idle infrastructure should cost nothing.</li>
+    <li>Every queue gets a dead letter queue.</li>
+    <li>If it is not in code, it does not exist.</li>
+    <li>A completed HTTP request and a settled transaction are different events.</li>
+  </ul>
+</div></section>
+
+<section id="stack" aria-labelledby="stack-title"><div class="wrap">
+  <p class="label mono">Stack</p>
+  <h2 id="stack-title">Tools I use</h2>
+  <div class="groups">
+    <div class="group"><h3 class="mono">AWS</h3><ul class="chips" data-chips="AWS,ECS Fargate,RDS,SQS,S3,IAM,Secrets Manager,CloudWatch"></ul></div>
+    <div class="group"><h3 class="mono">Infrastructure as code</h3><ul class="chips" data-chips="AWS CDK,Terraform,Docker,Kubernetes,GCP"></ul></div>
+    <div class="group"><h3 class="mono">Delivery and data</h3><ul class="chips" data-chips="GitHub Actions,OIDC,PostgreSQL,Redis,Node.js,Python"></ul></div>
+  </div>
+</div></section>
+
+<section id="contact" aria-labelledby="ct-title"><div class="wrap">
+  <p class="label mono">Contact</p>
+  <h2 id="ct-title">Have infrastructure to build?</h2>
+  <p class="lead">Email is the fastest way to reach me.</p>
+  <a class="mail" href="mailto:nwadiaromiraclechukwuma@gmail.com">nwadiaromiraclechukwuma@gmail.com</a>
+</div></section>
+</main>
+
+<footer>© <span id="y">2026</span> Nwadiaro Miracle Chukwuma</footer>
+<script>
+document.querySelectorAll("[data-chips]").forEach(function(ul){
+  ul.dataset.chips.split(",").forEach(function(t){
+    var li=document.createElement("li"),b=document.createElement("button");
+    b.type="button";b.className="chip";b.textContent=t;b.setAttribute("aria-pressed","false");
+    b.onclick=function(){b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")==="true"?"false":"true")};
+    li.appendChild(b);ul.appendChild(li);
+  });
+});
+document.getElementById("y").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
